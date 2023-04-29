@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}   
+
+
+.tela-login {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-login {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: black;
+    background-color: rgb(29, 27, 27);
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px #00000056;
+}
+
+.area-login > h1 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.usuario>label {
+    width: 260px;
+    color: rgb(255, 255, 255);
+    margin: 9px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.usuario >input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    background: rgb(20, 19, 19);
+    color: #f0ffffde;
+    box-shadow: 0px 10px 30px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.btn-login {
+    width: 260px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px  #0c6409;
+    letter-spacing: 3px;
+}
+
+button:hover {
+    background-color: #0c6409;
+    color:white; 
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
